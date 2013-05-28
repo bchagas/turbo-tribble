@@ -1,0 +1,255 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Helvetica", Arial, sans-serif; }
+  body a {
+    color: #7f7f7d;
+    text-decoration: none; }
+  body p, body blockquote {
+    font-size: 18px; }
+  body p {
+    line-height: 35px; }
+  body strong {
+    font-weight: bold; }
+
+.agency h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 94px; }
+.agency p {
+  color: white;
+  line-height: 25px;
+  font-size: 17px; }
+
+.our-work h1, .our-work h2, .contact h1, .contact h2 {
+  font-family: "Bebas Neue Regular", "Helvetica", Arial, sans-serif;
+  font-size: 30px; }
+.our-work h2, .contact h2 {
+  text-align: center; }
+.our-work p, .contact p {
+  text-align: center; }
+
+body > header {
+  *zoom: 1;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto; }
+  body > header:before, body > header:after {
+    content: " ";
+    display: table; }
+  body > header:after {
+    clear: both; }
+
+.agency > header {
+  *zoom: 1;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto; }
+  .agency > header:before, .agency > header:after {
+    content: " ";
+    display: table; }
+  .agency > header:after {
+    clear: both; }
+.agency h1 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  margin-right: 0; }
+  .agency h1:last-child {
+    margin-right: 0; }
+.agency p {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  margin-right: 0; }
+  .agency p:last-child {
+    margin-right: 0; }
+
+.our-work, .contact {
+  padding-top: 50px; }
+  .our-work header, .our-work div, .our-work ul, .contact header, .contact div, .contact ul {
+    *zoom: 1;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto; }
+    .our-work header:before, .our-work header:after, .our-work div:before, .our-work div:after, .our-work ul:before, .our-work ul:after, .contact header:before, .contact header:after, .contact div:before, .contact div:after, .contact ul:before, .contact ul:after {
+      content: " ";
+      display: table; }
+    .our-work header:after, .our-work div:after, .our-work ul:after, .contact header:after, .contact div:after, .contact ul:after {
+      clear: both; }
+  .our-work div, .contact div {
+    margin-bottom: 38px; }
+  .our-work ul > li, .contact ul > li {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .our-work ul > li:last-child, .contact ul > li:last-child {
+      margin-right: 0; }
+
+.contact div {
+  margin-bottom: 0; }
+
+body {
+  background: url("../images/background-header.gif") repeat-x top; }
+  body > header {
+    padding: 35px 0; }
+    body > header h1 {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      color: transparent;
+      font: 0/0 a;
+      text-shadow: none;
+      background-image: url("../images/logo.png");
+      width: 154px;
+      height: 55px; }
+    body > header nav {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      float: right;
+      margin-top: 28px; }
+    body > header li {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      margin-left: 20px; }
+    body > header a:hover, body > header a.current {
+      color: #ffde00; }
+
+.agency {
+  background-image: url("../images/pizza.jpg"), -webkit-linear-gradient(left, #1a1919, #312f2f);
+  background-image: url("../images/pizza.jpg"), linear-gradient(to right, #1a1919, #312f2f);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 52px 0; }
+  .agency h1 {
+    position: relative; }
+    .agency h1:before {
+      content: " ";
+      background: #ffde00;
+      width: 40px;
+      height: 6px;
+      position: absolute;
+      top: 75px;
+      left: -54px; }
+
+.our-work {
+  background: #ffde00;
+  padding-bottom: 62px; }
+  .our-work header {
+    position: relative;
+    margin-bottom: 42px; }
+    .our-work header:after {
+      height: 0;
+      width: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 20px;
+      border-bottom-color: #ffde00;
+      position: absolute;
+      left: -18px;
+      top: -90px; }
+    .our-work header h1 {
+      position: relative; }
+      .our-work header h1:before {
+        content: " ";
+        background: white;
+        width: 40px;
+        height: 6px;
+        position: absolute;
+        top: 30px;
+        left: -54px; }
+  .our-work h2 {
+    background: white;
+    border-radius: 100px;
+    padding: 80px 0;
+    position: relative;
+    z-index: 2; }
+    .our-work h2:after {
+      content: " ";
+      border: 1px solid #ffde00;
+      border-radius: 100px;
+      padding: 86px;
+      position: absolute;
+      top: 8px;
+      left: 5px; }
+  .our-work ol {
+    background: #ffe952;
+    border-radius: 100px;
+    padding: 42px 0;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    z-index: 1; }
+    .our-work ol > li {
+      text-align: center;
+      line-height: 26px;
+      color: white; }
+
+.contact, footer {
+  background: black;
+  color: white; }
+  .contact header, footer header {
+    position: relative;
+    margin-bottom: 42px;
+    color: white; }
+    .contact header:after, footer header:after {
+      height: 0;
+      width: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 20px;
+      border-bottom-color: black;
+      position: absolute;
+      left: -18px;
+      top: -90px; }
+    .contact header h1, footer header h1 {
+      position: relative; }
+      .contact header h1:before, footer header h1:before {
+        content: " ";
+        background: #ffde00;
+        width: 40px;
+        height: 6px;
+        position: absolute;
+        top: 30px;
+        left: -54px; }
+  .contact a, footer a {
+    color: #ffde00;
+    text-align: center; }
+
+footer {
+  padding: 50px 0; }
+  footer h1 {
+    background: url("../images/logo-footer.png") no-repeat center center;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    width: 358px;
+    height: 201px;
+    margin: 0 auto;
+    position: relative; }
+    footer h1:before {
+      content: " ";
+      height: 0;
+      width: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 25px;
+      border-bottom-color: #ffde00;
+      position: absolute;
+      bottom: -50px;
+      left: 50%; }

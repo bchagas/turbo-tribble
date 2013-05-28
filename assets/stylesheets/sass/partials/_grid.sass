@@ -1,0 +1,33 @@
+@import neat/neat-helpers
+@import partials/typography
+
+$column: 60px
+$gutter: 10px
+$grid-columns: 12
+$max-width: em(800)
+
+body
+  > header
+    +outer-container
+
+.agency
+  > header
+    +outer-container
+  h1
+    +span-columns(7)
+    margin-right: 0
+  p
+    +span-columns(5)
+    margin-right: 0
+
+.our-work, .contact
+  padding-top: 50px
+  header, div, ul
+    +outer-container
+  div
+    margin-bottom: 38px
+  ul > li
+    +span-columns(3 of 12)
+.contact
+  div
+    margin-bottom: 0

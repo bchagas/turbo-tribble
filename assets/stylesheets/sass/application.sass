@@ -1,0 +1,84 @@
+@import bourbon/bourbon
+@import neat/neat
+@import partials/grid
+@import partials/colors
+@import partials/mixins
+
+body
+  background: url('../images/background-header.gif') repeat-x top
+
+  > header
+    padding: 35px 0
+    h1
+      +inline-block
+      +hide-text
+      background-image: url('../images/logo.png')
+      +size(154px 55px)
+    nav
+      +inline-block
+      float: right
+      margin-top: 28px
+    li
+      +inline-block
+      margin-left: 20px
+    a
+      &:hover, &.current
+        color: $yellow
+
+.agency
+  +background-image(url('../images/pizza.jpg'), linear-gradient(left, $cod-gray, $shaft-gray))
+  background:
+    position: center center
+    repeat: no-repeat
+  padding: 52px 0
+  h1
+    position: relative
+    +cursor($yellow, 75px)
+
+.our-work
+  background: $yellow
+  padding-bottom: 62px
+  header
+    +title
+  h2
+    +circles
+    &:after
+      content: ' '
+      border: 1px solid $yellow
+      border-radius: 100px
+      padding: 86px
+      position: absolute
+      top: 8px
+      left: 5px
+  ol
+    +circles($gorse, 42px)
+    margin-top: -35px
+    z-index: 1
+    > li
+      text-align: center
+      line-height: 26px
+      color: white
+.contact, footer
+  background: black
+  color: white
+  header
+    +title(black, $yellow)
+    color: white
+  a
+    color: $yellow
+    text-align: center
+
+footer
+  padding: 50px 0
+  h1
+    background: url('../images/logo-footer.png') no-repeat center center
+    +hide-text
+    +size(358px 201px)
+    margin: 0 auto
+    position: relative
+    &:before
+      content: ' '
+      +triangle(50px, $yellow, up)
+      position: absolute
+      bottom: -50px
+      left: 50%

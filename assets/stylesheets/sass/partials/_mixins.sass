@@ -1,0 +1,29 @@
+@import bourbon/bourbon
+
+=cursor($color: white, $top: 0)
+  &:before
+    content: ' '
+    background: $color
+    +size(40px 6px)
+    position: absolute
+    top: $top
+    left: -54px
+
+=circles($background-color: white, $padding-top: 80px)
+  background: $background-color
+  border-radius: 100px
+  padding: $padding-top 0
+  position: relative
+  z-index: 2
+
+=title($triangle-color: $yellow, $cursor-color: white)
+  position: relative
+  margin-bottom: 42px
+  &:after
+    +triangle(40px, $triangle-color, up)
+    position: absolute
+    left: -18px
+    top: -90px
+  h1
+    position: relative
+    +cursor($cursor-color, 30px)
