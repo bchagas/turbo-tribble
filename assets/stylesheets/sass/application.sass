@@ -5,9 +5,8 @@
 @import partials/mixins
 
 body
-  background: url('../images/background-header.gif') repeat-x top
-
   > header
+    background: url('../images/background-header.gif') repeat-x top white
     padding: 35px 0
     h1
       +inline-block
@@ -24,6 +23,18 @@ body
     a
       &:hover, &.current
         color: $yellow
+
+.fixed
+  left: 0
+  max-width: 100%
+  width: 100%
+  z-index: 100
+
+  .content
+    +outer-container
+
+.agency, .our-work, .contact
+  position: relative
 
 .agency
   +background-image(url('../images/pizza.jpg'), linear-gradient(left, $cod-gray, $shaft-gray))
