@@ -5,9 +5,13 @@
 @import partials/mixins
 
 body
-  > header
+  .header
     background: url('../images/background-header.gif') repeat-x top white
     padding: 35px 0
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 100
     h1
       +inline-block
       +hide-text
@@ -20,18 +24,20 @@ body
     li
       +inline-block
       margin-left: 20px
-    a
-      &:hover, &.current
+      &.active a
         color: $yellow
-
-.fixed
-  left: 0
-  max-width: 100%
-  width: 100%
-  z-index: 100
+    a
+      &:hover
+        color: $yellow
 
   .content
     +outer-container
+
+#main
+  padding-top: 138px
+
+.section
+  min-height: 365px
 
 .agency, .our-work, .contact
   position: relative

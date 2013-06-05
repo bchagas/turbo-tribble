@@ -96,10 +96,14 @@ body > header .content {
 .contact div {
   margin-bottom: 0; }
 
-body > header {
+body .header {
   background: url("../images/background-header.gif") repeat-x top white;
-  padding: 35px 0; }
-  body > header h1 {
+  padding: 35px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  body .header h1 {
     display: inline-block;
     vertical-align: baseline;
     zoom: 1;
@@ -111,7 +115,7 @@ body > header {
     background-image: url("../images/logo.png");
     width: 154px;
     height: 55px; }
-  body > header nav {
+  body .header nav {
     display: inline-block;
     vertical-align: baseline;
     zoom: 1;
@@ -119,31 +123,33 @@ body > header {
     *vertical-align: auto;
     float: right;
     margin-top: 28px; }
-  body > header li {
+  body .header li {
     display: inline-block;
     vertical-align: baseline;
     zoom: 1;
     *display: inline;
     *vertical-align: auto;
     margin-left: 20px; }
-  body > header a:hover, body > header a.current {
+    body .header li.active a {
+      color: #ffde00; }
+  body .header a:hover {
     color: #ffde00; }
+body .content {
+  *zoom: 1;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto; }
+  body .content:before, body .content:after {
+    content: " ";
+    display: table; }
+  body .content:after {
+    clear: both; }
 
-.fixed {
-  left: 0;
-  max-width: 100%;
-  width: 100%;
-  z-index: 100; }
-  .fixed .content {
-    *zoom: 1;
-    max-width: 50em;
-    margin-left: auto;
-    margin-right: auto; }
-    .fixed .content:before, .fixed .content:after {
-      content: " ";
-      display: table; }
-    .fixed .content:after {
-      clear: both; }
+#main {
+  padding-top: 138px; }
+
+.section {
+  min-height: 365px; }
 
 .agency, .our-work, .contact {
   position: relative; }
