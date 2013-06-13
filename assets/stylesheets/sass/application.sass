@@ -23,12 +23,14 @@ body
       margin-top: 28px
     li
       +inline-block
-      margin-left: 20px
+      margin-left: 50px
       &.active a
-        color: $yellow
+        color: #F9CC42
+        font-weight: bold
     a
+      font-size: 19px
       &:hover
-        color: $yellow
+        color: #F9CC42
 
   .content
     +outer-container
@@ -66,7 +68,7 @@ body
       padding: 86px
       position: absolute
       top: 8px
-      left: 5px
+      left: 10px
   ol
     +circles($gorse, 42px)
     margin-top: -35px
@@ -74,7 +76,6 @@ body
     > li
       text-align: center
       line-height: 26px
-      color: white
 .contact, footer
   background: black
   color: white
@@ -99,3 +100,19 @@ footer
       position: absolute
       bottom: -50px
       left: 50%
+
+.social-network
+  position: absolute
+  top: -60px
+  right: 0
+  overflow: hidden
+  a
+    display: block
+    +hide-text
+    +size(28px)
+    margin: 0 8px
+
+  @each $network in facebook, tumblr, behance, pinterest
+    .#{$network}
+      background: url("../images/icons/#{$network}.png") no-repeat center
+

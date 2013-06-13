@@ -1,101 +1,140 @@
+/* line 2, sass/neat/grid/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 3, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 body {
   font-family: "Helvetica", Arial, sans-serif; }
+  /* line 5, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
   body a {
-    color: #7f7f7d;
+    color: black;
     text-decoration: none; }
+  /* line 8, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
   body p, body blockquote {
     font-size: 18px; }
+  /* line 10, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
   body p {
     line-height: 35px; }
+  /* line 12, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
   body strong {
     font-weight: bold; }
 
+/* line 16, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 .agency h1 {
   color: white;
   font-size: 65px;
   font-weight: bold;
   line-height: 94px; }
+/* line 22, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 .agency p {
   color: white;
-  line-height: 25px;
-  font-size: 17px; }
+  line-height: 32px;
+  font-size: 16px; }
 
+/* line 28, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 .our-work h1, .our-work h2, .contact h1, .contact h2 {
   font-family: "Bebas Neue Regular", "Helvetica", Arial, sans-serif;
   font-size: 30px; }
+/* line 32, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 .our-work h2, .contact h2 {
   text-align: center; }
+/* line 34, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
 .our-work p, .contact p {
   text-align: center; }
 
+/* line 37, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
+.contact p {
+  font-size: 25px;
+  line-height: 55px; }
+/* line 40, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_typography.sass */
+.contact a {
+  font-weight: bold; }
+
+/* line 10, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 body > header .content {
   *zoom: 1;
-  max-width: 50em;
+  max-width: 52em;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, sass/bourbon/addons/_clearfix.scss */
   body > header .content:before, body > header .content:after {
     content: " ";
     display: table; }
+  /* line 23, sass/bourbon/addons/_clearfix.scss */
   body > header .content:after {
     clear: both; }
 
+/* line 14, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 .agency > header {
   *zoom: 1;
-  max-width: 50em;
+  max-width: 52em;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, sass/bourbon/addons/_clearfix.scss */
   .agency > header:before, .agency > header:after {
     content: " ";
     display: table; }
+  /* line 23, sass/bourbon/addons/_clearfix.scss */
   .agency > header:after {
     clear: both; }
+/* line 16, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 .agency h1 {
   display: block;
   float: left;
   margin-right: 2.35765%;
   width: 57.35098%;
   margin-right: 0; }
+  /* line 41, sass/neat/grid/_span-columns.scss */
   .agency h1:last-child {
     margin-right: 0; }
+/* line 19, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 .agency p {
   display: block;
   float: left;
   margin-right: 2.35765%;
   width: 40.29137%;
   margin-right: 0; }
+  /* line 41, sass/neat/grid/_span-columns.scss */
   .agency p:last-child {
     margin-right: 0; }
 
+/* line 23, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 .our-work, .contact {
   padding-top: 50px; }
+  /* line 25, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
   .our-work header, .our-work div, .our-work ul, .contact header, .contact div, .contact ul {
     *zoom: 1;
-    max-width: 50em;
+    max-width: 52em;
     margin-left: auto;
     margin-right: auto; }
+    /* line 18, sass/bourbon/addons/_clearfix.scss */
     .our-work header:before, .our-work header:after, .our-work div:before, .our-work div:after, .our-work ul:before, .our-work ul:after, .contact header:before, .contact header:after, .contact div:before, .contact div:after, .contact ul:before, .contact ul:after {
       content: " ";
       display: table; }
+    /* line 23, sass/bourbon/addons/_clearfix.scss */
     .our-work header:after, .our-work div:after, .our-work ul:after, .contact header:after, .contact div:after, .contact ul:after {
       clear: both; }
+  /* line 27, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
   .our-work div, .contact div {
     margin-bottom: 38px; }
+  /* line 29, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
   .our-work ul > li, .contact ul > li {
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 23.23176%; }
+    /* line 41, sass/neat/grid/_span-columns.scss */
     .our-work ul > li:last-child, .contact ul > li:last-child {
       margin-right: 0; }
 
+/* line 32, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_grid.sass */
 .contact div {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  position: relative; }
 
+/* line 8, sass/application.sass */
 body .header {
   background: url("../images/background-header.gif") repeat-x top white;
   padding: 35px 0;
@@ -103,6 +142,7 @@ body .header {
   top: 0;
   width: 100%;
   z-index: 100; }
+  /* line 15, sass/application.sass */
   body .header h1 {
     display: inline-block;
     vertical-align: baseline;
@@ -115,6 +155,7 @@ body .header {
     background-image: url("../images/logo.png");
     width: 154px;
     height: 55px; }
+  /* line 20, sass/application.sass */
   body .header nav {
     display: inline-block;
     vertical-align: baseline;
@@ -123,45 +164,61 @@ body .header {
     *vertical-align: auto;
     float: right;
     margin-top: 28px; }
+  /* line 24, sass/application.sass */
   body .header li {
     display: inline-block;
     vertical-align: baseline;
     zoom: 1;
     *display: inline;
     *vertical-align: auto;
-    margin-left: 20px; }
+    margin-left: 50px; }
+    /* line 27, sass/application.sass */
     body .header li.active a {
-      color: #ffde00; }
-  body .header a:hover {
-    color: #ffde00; }
+      color: #f9cc42;
+      font-weight: bold; }
+  /* line 30, sass/application.sass */
+  body .header a {
+    font-size: 19px; }
+    /* line 32, sass/application.sass */
+    body .header a:hover {
+      color: #f9cc42; }
+/* line 35, sass/application.sass */
 body .content {
   *zoom: 1;
-  max-width: 50em;
+  max-width: 52em;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/bourbon/addons/_clearfix.scss */
   body .content:before, body .content:after {
     content: " ";
     display: table; }
+  /* line 23, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/bourbon/addons/_clearfix.scss */
   body .content:after {
     clear: both; }
 
+/* line 38, sass/application.sass */
 #main {
   padding-top: 138px; }
 
+/* line 41, sass/application.sass */
 .section {
   min-height: 365px; }
 
+/* line 44, sass/application.sass */
 .agency, .our-work, .contact {
   position: relative; }
 
+/* line 47, sass/application.sass */
 .agency {
   background-image: url("../images/pizza.jpg"), -webkit-linear-gradient(left, #1a1919, #312f2f);
   background-image: url("../images/pizza.jpg"), linear-gradient(to right, #1a1919, #312f2f);
   background-position: center center;
   background-repeat: no-repeat;
   padding: 52px 0; }
+  /* line 53, sass/application.sass */
   .agency h1 {
     position: relative; }
+    /* line 4, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
     .agency h1:before {
       content: " ";
       background: #ffde00;
@@ -171,12 +228,15 @@ body .content {
       top: 75px;
       left: -54px; }
 
+/* line 57, sass/application.sass */
 .our-work {
   background: #ffde00;
   padding-bottom: 62px; }
+  /* line 60, sass/application.sass */
   .our-work header {
     position: relative;
     margin-bottom: 42px; }
+    /* line 22, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
     .our-work header:after {
       height: 0;
       width: 0;
@@ -187,8 +247,10 @@ body .content {
       position: absolute;
       left: -18px;
       top: -90px; }
+    /* line 27, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
     .our-work header h1 {
       position: relative; }
+      /* line 4, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
       .our-work header h1:before {
         content: " ";
         background: white;
@@ -197,12 +259,14 @@ body .content {
         position: absolute;
         top: 30px;
         left: -54px; }
+  /* line 62, sass/application.sass */
   .our-work h2 {
     background: white;
     border-radius: 100px;
     padding: 80px 0;
     position: relative;
     z-index: 2; }
+    /* line 64, sass/application.sass */
     .our-work h2:after {
       content: " ";
       border: 1px solid #ffde00;
@@ -210,7 +274,8 @@ body .content {
       padding: 86px;
       position: absolute;
       top: 8px;
-      left: 5px; }
+      left: 10px; }
+  /* line 72, sass/application.sass */
   .our-work ol {
     background: #ffe952;
     border-radius: 100px;
@@ -219,18 +284,21 @@ body .content {
     z-index: 2;
     margin-top: -35px;
     z-index: 1; }
+    /* line 76, sass/application.sass */
     .our-work ol > li {
       text-align: center;
-      line-height: 26px;
-      color: white; }
+      line-height: 26px; }
 
+/* line 79, sass/application.sass */
 .contact, footer {
   background: black;
   color: white; }
+  /* line 82, sass/application.sass */
   .contact header, footer header {
     position: relative;
     margin-bottom: 42px;
     color: white; }
+    /* line 22, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
     .contact header:after, footer header:after {
       height: 0;
       width: 0;
@@ -241,8 +309,10 @@ body .content {
       position: absolute;
       left: -18px;
       top: -90px; }
+    /* line 27, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
     .contact header h1, footer header h1 {
       position: relative; }
+      /* line 4, /Users/brunochagas/Documents/workspace/projects/foodco/assets/stylesheets/sass/partials/_mixins.sass */
       .contact header h1:before, footer header h1:before {
         content: " ";
         background: #ffde00;
@@ -251,12 +321,15 @@ body .content {
         position: absolute;
         top: 30px;
         left: -54px; }
+  /* line 85, sass/application.sass */
   .contact a, footer a {
     color: #ffde00;
     text-align: center; }
 
+/* line 89, sass/application.sass */
 footer {
   padding: 50px 0; }
+  /* line 91, sass/application.sass */
   footer h1 {
     background: url("../images/logo-footer.png") no-repeat center center;
     color: transparent;
@@ -266,6 +339,7 @@ footer {
     height: 201px;
     margin: 0 auto;
     position: relative; }
+    /* line 97, sass/application.sass */
     footer h1:before {
       content: " ";
       height: 0;
@@ -277,3 +351,31 @@ footer {
       position: absolute;
       bottom: -50px;
       left: 50%; }
+
+/* line 104, sass/application.sass */
+.social-network {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  overflow: hidden; }
+  /* line 109, sass/application.sass */
+  .social-network a {
+    display: block;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    width: 28px;
+    height: 28px;
+    margin: 0 8px; }
+  /* line 116, sass/application.sass */
+  .social-network .facebook {
+    background: url("../images/icons/facebook.png") no-repeat center; }
+  /* line 116, sass/application.sass */
+  .social-network .tumblr {
+    background: url("../images/icons/tumblr.png") no-repeat center; }
+  /* line 116, sass/application.sass */
+  .social-network .behance {
+    background: url("../images/icons/behance.png") no-repeat center; }
+  /* line 116, sass/application.sass */
+  .social-network .pinterest {
+    background: url("../images/icons/pinterest.png") no-repeat center; }
